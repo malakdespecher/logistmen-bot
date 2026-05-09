@@ -62,5 +62,5 @@ def main():
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, xabar))
     app.run_polling()
 
-if name == "main":
+if __name == "__main__":
     main()

@@ -4,7 +4,19 @@ from telegram.ext import Application, MessageHandler, CommandHandler, filters, C
 
 BOT_TOKEN = "8766697654:AAFn2EbH-mkHwwzpn0_f9Rjsi6L2scVV5Fc"
 GURUH_ID = -1001568505976
-topic_ids = {}
+topic_ids = {"toshkent": 7038,
+    "samarqand": 7052,
+    "buxoro": 7050,
+    "namangan": 7032,
+    "andijon": 7028,
+    "fargona": 7030,
+    "xorazm": 7042,
+    "surxondaryo": 7036,
+    "qashqadaryo": 7034,
+    "sirdaryo": 7040,
+    "jizzax": 7046,
+    "navoiy": 7044,
+            }
 logging.basicConfig(level=logging.INFO)
 
 def viloyat_topish(matn):
